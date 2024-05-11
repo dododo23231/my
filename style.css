@@ -1,0 +1,51 @@
+.Test{
+    text-align: center;
+    color: rgb(232, 252, 232);
+    font-size: 50px;
+    border-style: double;
+    background-color: rgb(130, 158, 82);
+    font-style: oblique;
+    transition: 2s;
+}
+.quest{
+    text-align: center;
+    font-style: oblique;
+    font-size: 20px;
+    color: darkgreen;
+    border: 2px  solid green;
+    padding: 5px;
+}
+.Test:hover{
+    color: darkgreen;  
+}
+.quest2{
+    text-align: center;
+    font-style: oblique;
+    font-size: 25px;
+    color: darkgreen;
+}
+.select{
+    text-align: center;
+}
+.result{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(219, 255, 219);
+    background-color: rgb(130, 158, 82);
+    font-size: 30px;
+    font-style: oblique;
+    animation-name: jump;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes jump{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-50);
+    }
+    100%{
+        transform: translateY(-100);
+    }
+    }
